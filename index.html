@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Emulesnes</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <div>   
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Super_Nintendo_Entertainment_System_logo.svg/2560px-Super_Nintendo_Entertainment_System_logo.svg.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Jogos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+
         <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
 
-    <div class="bar"></div>
-
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
         </div>
 
-        <div class="main">
-            
-        </div>
+    </header>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+    <main id="game-list"></main>
 
-    <div class="footer">
+    <footer class="footer">
+        <p>&copy; 2023 Emulesnes.</p>
+    </footer>
 
-    </div>
+    <script src="./script/script.js"></script>
 </body>
+
 </html>
